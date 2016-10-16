@@ -22,13 +22,12 @@ class DetailsViewController: UIViewController {
 
     @IBOutlet weak var detailsView: UIView!
     @IBOutlet weak var scrollView: UIScrollView!
-    var oldLabelSize:Float = 0
+    var oldHeightLabelSize:CGFloat = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //scrollView.contentSize.width = scrollView.frame.size.width
         //scrollView.contentSize = CGSize(width: scrollView.frame.size.width, height: overviewRect.origin.y + overviewRect.size.height + 10)
-        oldLabelSize = Float(overviewLabel.frame.size.height)
         setData()
     }
     
@@ -41,9 +40,10 @@ class DetailsViewController: UIViewController {
         self.popularityLabel.text = String(format:"%2.0f%%",movie.popularity)
         self.voteAverageLabel.text = String(format:"%1.1f", movie.voteAverage)
         self.overviewLabel.sizeToFit()
-        let overviewRect = self.overviewLabel.frame;
-        let height = overviewRect.origin.y + overviewRect.size.height + 360
+        
+        let height = self.detailsView.frame.origin.y + self.detailsView.frame.size.height + self.overviewLabel.frame.height
         scrollView.contentSize.height = height
-        self.detailsView.sizeToFit()
+        //self.detailsView.frame.origin.y = overviewLabel.frame.origin.y
+        self.detailsView.frame.size.height += self.overviewLabel.frame.height/2
     }
 }

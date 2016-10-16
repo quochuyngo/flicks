@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EA576559041ED1F4ED25DC4AE3231DF44D4BF866",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "48B3FD3282AE6323310766963049AB1E21C64737" : 9223372036854775807,
+    "EA576559041ED1F4ED25DC4AE3231DF44D4BF866" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7109F6D8-3D75-4CDC-AC63-7AD1BD87D163",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "48B3FD3282AE6323310766963049AB1E21C64737" : "..",
+    "EA576559041ED1F4ED25DC4AE3231DF44D4BF866" : "Flicks\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Flicks",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Flicks\/Flicks.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/quochuyngo\/TipCalculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "48B3FD3282AE6323310766963049AB1E21C64737"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/quochuyngo\/flicks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EA576559041ED1F4ED25DC4AE3231DF44D4BF866"
+    }
+  ]
+}
