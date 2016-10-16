@@ -1,6 +1,6 @@
-# Project 1 - Flicks*
+# Project 1 - Flicks
 
-*Flicks** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+*Flicks* is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 Time spent: **20** hours spent in total
 
@@ -26,6 +26,7 @@ The following **optional** features are implemented:
 
 ## Video Walkthrough
 Here's a walkthrough of implemented user stories:
+
 <img src='https://cloud.githubusercontent.com/assets/10734967/19414807/cba5ec0c-9383-11e6-9bab-3799aa4785d7.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
